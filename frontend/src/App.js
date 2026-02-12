@@ -37,14 +37,14 @@ function App() {
 
   useEffect(() => {
     getUsers();
-  }, [users]);
+  }, [setUsers]);
 
   return (
     <>
       <Container>
         <Title>USUÁRIOS</Title>
-        <Form />
-        <Grid users={users} />
+        <Form onEdit={onEdit} setOnEdit={setOnEdit} getUsers={getUsers}/>
+        <Grid users={users} setUsers={setUsers} setOnEdit={setOnEdit}/>
       </Container>
       {/* O ToastContainer deve ficar fora do Container para não ser afetado pelo alinhamento flex */}
       <ToastContainer autoClose={300} position="bottom-left" />
