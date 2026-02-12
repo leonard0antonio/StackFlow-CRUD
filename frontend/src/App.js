@@ -4,7 +4,7 @@ import Form from './components/Form';
 import Grid from './components/Grid';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { useState,useEffect, use } from 'react';
+import { useState,useEffect } from 'react';
 import axios from 'axios';
 
 const Container = styled.div`
