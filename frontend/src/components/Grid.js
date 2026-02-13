@@ -54,7 +54,7 @@ const handleEdit = (item) => {
 
   const handleDelete = async (id) => {
     await axios
-    .delete("http://localhost:8800/users/" + id)
+    .delete("http://localhost:8800/" + id)
     .then(({ data }) => {
       const newArray = users.filter((user) => user.id !== id);
 
