@@ -90,17 +90,9 @@ A interação ocorre de forma dinâmica, sem necessidade de recarregar a página
 
 # 📸 Capturas de Tela (Descrição Visual)
 
-O repositório não contém imagens ou screenshots.
 
-Visualmente, trata-se de uma aplicação web simples e funcional, com layout organizado em:
+![Demo da aplicação](demo01.gif)
 
-* Container centralizado
-* Tabela de usuários
-* Campos de formulário
-* Botões de ação
-* Notificações visuais
-
-O design é minimalista e focado na funcionalidade, ideal para fins educacionais e demonstração técnica.
 
 ---
 
